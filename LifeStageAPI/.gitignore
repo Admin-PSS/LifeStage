@@ -1,0 +1,31 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+logs/
+
+## Secrets (NEVER commit these)
+appsettings.Production.json
+appsettings.*.local.json
+.env
+secrets.json
+
+## Build / deploy artifacts
+publish*/
+deploy*.zip
+*.zip
+
+## EF Migrations (keep the folder but not the generated files usually)
+# src/NexusAPI/Data/Migrations/
+
+## Rider / VS / VSCode
+.idea/
+.vscode/
+*.DotSettings.user
+
+## OS
+.DS_Store
+Thumbs.db

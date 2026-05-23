@@ -1,0 +1,15 @@
+# Claude Code local memory
+.claude/
+
+# Word/Office docs (binary, metadata-laden)
+*.docx
+*.xlsx
+*.pptx
+
+# Build and deploy artifacts
+*.zip
+publish*/
+
+# OS
+.DS_Store
+Thumbs.db
